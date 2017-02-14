@@ -13,7 +13,7 @@ public class ConnectionProcess extends Thread {
 	// private InputStream recieve;
 	private byte[] buf;
 	private int i;
-	private String receivedString;
+	private String receivedString="";
 
 	public ConnectionProcess(Socket socket, byte[] buf, int i) {
 		this.socket = socket;
